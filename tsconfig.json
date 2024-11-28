@@ -27,7 +27,7 @@
       "@main/*": ["./src/main/*"],
 
       "@components/*": ["./src/presentation/components/*"],
-      "@config/*": ["./src/presentation/config/*"],
+      "@config/*": ["./src/config/*"],
       "@helpers/*": ["./src/presentation/helpers/*"],
       "@pages/*": ["./src/presentation/pages/*"],
       "@stores/*": ["./src/presentation/stores/*"],
