@@ -11,9 +11,9 @@ export const MENU_RESOURCES_CONFIGS: SidebarResource[] = [
     path: "/home",
   },
   {
-    id: "initial",
-    title: "Initial",
+    id: "center",
+    title: "Centrais",
     item: <FireIcon customSize="2.3rem" />,
-    path: "/initial",
+    path: "/center",
   },
 ];

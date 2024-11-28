@@ -14,11 +14,12 @@
     ]
   },
   "scripts": {
-    "dev": "next dev -p 3101",
+    "start:next": "next dev",
+    "start:json-server": "json-server --watch db.json --port 3101",
+    "dev": "run-p start:next start:json-server",
     "build": "next build",
-    "start": "run dev",
-    "lint": "next lint",
-    "json-server": "json-server --watch db.json --port 5000"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -47,11 +48,11 @@
     "json-server": "^1.0.0-beta.3",
     "lottie-react": "^2.4.0",
     "mini-css-extract-plugin": "^2.7.6",
-    "next": "14.0.4",
+    "next": "^15.0.3",
     "nookies": "^2.5.2",
-    "react": "18.2.0",
+    "react": "^18.3.1",
     "react-circular-progressbar": "^2.1.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.45.2",
     "react-input-mask": "^2.0.4",
     "react-router-dom": "^6.14.2",
@@ -85,6 +86,7 @@
     "eslint-plugin-react": "^7.30.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-storybook": "^0.6.13",
+    "npm-run-all": "^4.1.5",
     "prettier": "^2.8.8",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "5.1.6"

@@ -20,4 +20,5 @@ export const headerGroupStyles = style({
     display: "flex",
     alignItems: "center",
     marginLeft: "5%",
+    marginTop: "20px"
 });
