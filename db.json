@@ -5,6 +5,24 @@
       "name": "Central 2",
       "mac": "03:00:G0:80:80:02",
       "modelId": 2
+    },
+    {
+      "id": "3",
+      "name": "Central 3",
+      "mac": "03:00:G0:80:80:02",
+      "modelId": 2
+    },
+    {
+      "id": "4",
+      "name": "Central 4",
+      "mac": "03:00:G0:80:80:02",
+      "modelId": 2
+    },
+    {
+      "id": "8943",
+      "name": "teste",
+      "mac": "03:00:G0:80:80:03",
+      "modelId": 6
     }
   ],
   "models": [

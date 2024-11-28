@@ -14,6 +14,6 @@ export const MENU_RESOURCES_CONFIGS: SidebarResource[] = [
     id: "center",
     title: "Centrais",
     item: <FireIcon customSize="2.3rem" />,
-    path: "/center",
+    path: "/center-list",
   },
 ];
