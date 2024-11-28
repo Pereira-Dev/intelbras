@@ -5,8 +5,8 @@ import {
   ReactNode,
 } from "react";
 
-import { PortalTriggerProps } from "@components/utils/portal/types";
 import { InputTriggerProps } from "../input/types";
+import { PortalTriggerProps } from "../../../utils/portal/types";
 
 export type SelectOption = {
   label: string;

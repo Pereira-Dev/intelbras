@@ -1,11 +1,12 @@
 import classNames from "classnames";
 import { FC } from "react";
 
-import { ScrollArea } from "@components/core/scroll-area";
-import { Portal } from "@components/utils/portal";
+
 import { SelectOption, TypeSelectViewport } from "./select-option";
 import { selectViewportStyle } from "./styles/select-viewport.css";
 import { SelectViewportProps } from "./types";
+import { Portal } from "../../../utils/portal";
+import { ScrollArea } from "../scroll-area";
 
 export const SelectViewport: FC<SelectViewportProps & TypeSelectViewport> = (
   props

@@ -2,10 +2,10 @@ import { Slot } from "@radix-ui/react-slot";
 import classNames from "classnames";
 import { FC } from "react";
 
-import { Portal } from "@components/utils/portal";
 import { useSelect } from "./contexts/select-context";
 import { selectOptionStyle } from "./styles/select-option.css";
 import { SelectOptionProps } from "./types";
+import { Portal } from "../../../utils/portal";
 
 export type TypeSelectViewport = {
   onClickOption?: (value: any) => void;

@@ -1,10 +1,11 @@
 import classNames from "classnames";
 import { FC } from "react";
 
-import { Input } from "@components/core/input";
+
 import { useSelect } from "./contexts/select-context";
 import { selectInputTriggerStyle } from "./styles/select-input-trigger.css";
 import { SelectInputTriggerProps } from "./types";
+import { Input } from "../input";
 
 type SelectProps = {
   defaultValue?: string;

@@ -2,9 +2,9 @@ import { FC } from 'react';
 import { Trigger as PrimitiveTrigger } from '@radix-ui/react-accordion';
 import classNames from 'classnames';
 
-import { CaretRightIcon } from '@components/icons/caret-right';
 import * as styles from './styles/accordion-list-trigger.css';
 import { AccordionListTriggerProps } from './types';
+import { CaretRightIcon } from '../../../assets/icons/caret-right';
 
 export const AccordionListTrigger: FC<AccordionListTriggerProps> = (props) => {
   const { children, className, ...rest } = props;
